@@ -4,9 +4,10 @@
 // 関数プロトタイプ
 int MaxOfThree(int a, int b, int c);
 
+
 int main()
 {
-	srand(time(NULL));
+	srand(time(nullptr));
 	int a = rand() % 100;
 	int b = rand() % 100;
 	int c = rand() % 100;
